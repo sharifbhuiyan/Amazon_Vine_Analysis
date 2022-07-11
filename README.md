@@ -2,12 +2,9 @@
   	
 ---
 ## Overview of the project: 
-<p align="justify">The objective of the project to analysis data with statistics and hypothesis testing of datasets of a automotive industry. And all the testing and analysis and visualization is written with the R programming language. <p>
+<p align="justify">The objective of the project to analysis Amazon Vine program and to determine if there is any bias toward favorable reviews from Vine members in dataset. To furnishs the project analysis, Pyspark is used for ETL, AWS-RDS is used for storage data, and pull data from AWS-RDS to pgAdmin for query rquirement.
+ <p>
 	
-	This project analyzes Amazon Vine program and determines if there is a bias toward favorable reviews from Vine members.
-The analysis uses PySpark to perform the ETL process to extract the dataset, transform the data, connect to an AWS RDS instance, load the transformed data into pgAdmin and calculate different metrics.
-We focused on the US reviews for video games
-
 	
 ---
 
@@ -20,8 +17,8 @@ We focused on the US reviews for video games
 	
 
 ### Resources
-- Data Source: [ MechaCar_mpg.csv](https://github.com/sharifbhuiyan/MechaCar_Statistical_Analysis/tree/main/Resources), [ Suspension_Coil.csv](https://github.com/sharifbhuiyan/MechaCar_Statistical_Analysis/tree/main/Resources)  	
-- Software: RStudio-2022.02.3-492
+- Data Source: [  Amazon Review datasets](https://s3.amazonaws.com/amazon-reviews-pds/tsv/index.txt), [Video Games Review dataset](https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Video_Games_v1_00.tsv.gz)  	
+- Software: AWS(S3, RDS) ; PostgreSQL_11, pgAdmin 4, Google Colab Notebook 
 
 ## Results: 
 ### Total number of reviews:
